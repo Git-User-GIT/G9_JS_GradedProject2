@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Julius+Sans+One&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <header class="header">
+      <input type="text" id="search" placeholder="Search...."></input>
+      <img src="searchImg.png" onclick="searchName()" >
+    </div>  <button type="button" onclick="clickNext()">Next</button>
+    </header>
+    <div class="alert" id="alert">
+      <img style="float: left" src="No.png"></img>
+      <h2 style="float: right">No such Result found</h2>
+     <button style="top:0; right: 70%;" type="button" onclick="closeError()">Close</button>
+    </div>
+    
+  <page size="A4">
+    <div class="container">
+      <div class="leftPanel">
+        <div class="details">
+          <div class="item bottomLineSeparator">
+            <h2>
+              Personal Information
+            </h2>
+            <div class="smallText">
+              <p id="information">
+              </p>
+            </div>
+          </div>
+          <div class="item bottomLineSeparator">
+            <h2>
+              Technical Skills
+            </h2>
+            <div class="smallText">
+              <div>
+                <div>
+                  <span id ="skill">Accounting</span>
+                </div>
+              </div>
+            </div>
+          <div class="item">
+            <h2>
+              Hobbies
+            </h2>
+            <div class="smallText">
+              <p id="hobbies">
+              </p>
+            </div>
+          </div>
+        </div>  
+      </div>
+      </div>
+      <div class="rightPanel">
+        <div>
+          <h1 id="name">
+            Jhon Doe
+          </h1>
+          <div class="smallText">
+            <h3 id="appliedFor">
+             Applied For : 
+            </h3>
+          </div>
+        </div>
+        <div class="workExperience">
+          <h2>
+           Work Experience in Previous Company
+          </h2>
+              <div class="jobPosition">
+                <span class="bolded" id = "workExp">
+                  Accountant
+                </span>
+              </div>
+        </div>
+        <div class="workExperience">
+            <h2>
+             Projects
+            </h2>
+                <div class="jobPosition">
+                  <span class="bolded" id = "project">
+                    Accountant
+                  </span>
+                </div>
+          </div>
+          <div class="workExperience">
+            <h2>
+             Education
+            </h2>
+                <div class="jobPosition">
+                  <span class="bolded" id="education">
+                    Accountant
+                  </span>
+                </div>
+          </div>
+          <div class="workExperience">
+            <h2>
+             Internship
+            </h2>
+                <div class="jobPosition">
+                  <span class="bolded" id="internship">
+                    Accountant
+                  </span>
+                </div>
+          </div><br>
+          <div class="workExperience">
+            <h2>
+             Achievements
+            </h2>
+                <div class="jobPosition">
+                  <span class="bolded" id="achievements">
+                    Accountant
+                  </span>
+                </div>
+          </div>
+      </div>
+    </div>
+  </page>
+
+  <script src="resume.js"></script>
+</body>
+</html>
